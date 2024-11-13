@@ -17,4 +17,5 @@ int main ()
 	else if (age > 16) {
 		cout << "You are getting pretty old";
 	}
+	return 0;
 }
