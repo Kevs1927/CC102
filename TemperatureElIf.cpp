@@ -16,5 +16,5 @@ int main ()
 	else if (response > 50) {
 		cout << "No need to bring jacket";
 	} 
-	
+	return 0;
 }
