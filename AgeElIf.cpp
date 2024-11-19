@@ -2,20 +2,10 @@
 
 using namespace std;
 
-int main () 
+int main()
 {
 	int age;
-	cout << "What is your age?: ";
+	cout << "Enter age: ";
 	cin >> age;
-	
-	if (age < 16) {
-		cout << "too young too drive";
-	}
-	else if (age == 16) {
-		cout << "Better clear the road";
-	}
-	else if (age > 16) {
-		cout << "You are getting pretty old";
-	}
-	return 0;
+	cout << ((age<16) ?  "Too young to drive." : ((age==16) ? "Better clear the roads" :  "You are getting pretty old"));
 }
